@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: hootscrapper
+Version: 0.1.0
+Summary: Portfolio-ready SEC EDGAR filings scraper with CLI, tests, and CI
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Keywords: scraping,sec,edgar,finance,data-mining
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: lxml>=5.0.0
+Requires-Dist: urllib3>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Dynamic: license-file

@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+src/hootscrapper/__init__.py
+src/hootscrapper/cli.py
+src/hootscrapper/config.py
+src/hootscrapper/storage.py
+src/hootscrapper/utils.py
+src/hootscrapper.egg-info/PKG-INFO
+src/hootscrapper.egg-info/SOURCES.txt
+src/hootscrapper.egg-info/dependency_links.txt
+src/hootscrapper.egg-info/entry_points.txt
+src/hootscrapper.egg-info/requires.txt
+src/hootscrapper.egg-info/top_level.txt
+src/hootscrapper/scrapers/__init__.py
+src/hootscrapper/scrapers/sec_edgar.py

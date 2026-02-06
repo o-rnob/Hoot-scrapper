@@ -1,0 +1,2 @@
+[console_scripts]
+hoot = hootscrapper.cli:main
