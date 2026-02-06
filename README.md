@@ -1,5 +1,5 @@
 
-# 📊 Hoot Scrapper
+#  Hoot Scrapper
 By 0w1nomics
 
 Portfolio-ready **SEC EDGAR filings scraper** with CLI, tests, and GitHub Actions CI. Collects recent company filings (10-K, 10-Q, 8-K, etc.) from the SEC's public EDGAR database.
@@ -26,7 +26,11 @@ Portfolio-ready **SEC EDGAR filings scraper** with CLI, tests, and GitHub Action
 ```bash
 hoot scrape --source sec-edgar --limit 20
 hoot summary
+```
+
+
 #Project structure
+```bash
 hoot-scrapper/
 ├── src/hootscrapper/
 │   ├── __init__.py
